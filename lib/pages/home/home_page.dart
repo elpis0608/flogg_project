@@ -84,7 +84,7 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
               ),
-              const SizedBox(height: 40),
+              const SizedBox(height: 24),
               CategoryGrid(
                 items: items,
                 onTap: (name) {
@@ -96,7 +96,7 @@ class HomePage extends StatelessWidget {
                   );
                 },
               ),
-              SizedBox(height: 40),
+              SizedBox(height: 24),
 
               ClipRRect(
                 borderRadius: BorderRadius.circular(12),
@@ -111,7 +111,7 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: 40),
+              SizedBox(height: 80),
             ],
           ),
         ),
