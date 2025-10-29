@@ -11,7 +11,7 @@ class AutoCarousel extends StatefulWidget {
   const AutoCarousel({
     super.key,
     required this.images,
-    this.height = 280,
+    this.height = 240,
     this.borderRadius = 12,
     this.interval = const Duration(seconds: 3),
     this.fit = BoxFit.cover,
