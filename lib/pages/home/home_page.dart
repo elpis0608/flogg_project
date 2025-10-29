@@ -73,7 +73,7 @@ class HomePage extends StatelessWidget {
               ClipRRect(
                 borderRadius: BorderRadius.circular(12),
                 child: AspectRatio(
-                  aspectRatio: 3.2 / 4,
+                  aspectRatio: 1,
                   child: AutoCarousel(
                     images: const [
                       'assets/image/main1.jpg',
