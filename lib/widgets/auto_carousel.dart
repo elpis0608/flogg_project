@@ -79,7 +79,6 @@ class _AutoCarouselState extends State<AutoCarousel> {
                   width: active ? 18 : 8,
                   height: 8,
                   decoration: BoxDecoration(
-                    color: Colors.white.withOpacity(active ? 0.95 : 0.55),
                     borderRadius: BorderRadius.circular(8),
                   ),
                 );

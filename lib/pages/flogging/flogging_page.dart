@@ -44,7 +44,7 @@ class _FloggingPageState extends State<FloggingPage> {
       body: ListView.separated(
         padding: const EdgeInsets.fromLTRB(20, 12, 20, 100),
         itemCount: store.posts.length,
-        separatorBuilder: (_, __) => const SizedBox(height: 12),
+        separatorBuilder: (_, _) => const SizedBox(height: 12),
         itemBuilder: (_, i) {
           final p = store.posts[i];
           return InkWell(

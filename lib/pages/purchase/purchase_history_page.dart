@@ -111,7 +111,7 @@ class _PurchaseHistoryPageState extends State<PurchaseHistoryPage> {
           : ListView.separated(
               padding: const EdgeInsets.fromLTRB(20, 16, 20, 20),
               itemBuilder: (_, i) => _PurchaseCard(record: records[i]),
-              separatorBuilder: (_, __) => const SizedBox(height: 12),
+              separatorBuilder: (_, _) => const SizedBox(height: 12),
               itemCount: records.length,
             ),
       bottomNavigationBar: const AppBottomNav(currentIndex: 2),

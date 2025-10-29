@@ -106,7 +106,7 @@ class _CategoryPageState extends State<CategoryPage> {
               padding: const EdgeInsets.symmetric(horizontal: 20),
               physics: const BouncingScrollPhysics(),
               itemCount: kCategoryList.length,
-              separatorBuilder: (_, __) => const SizedBox(width: 12),
+              separatorBuilder: (_, _) => const SizedBox(width: 12),
               itemBuilder: (_, i) {
                 final c = kCategoryList[i];
                 return Container(

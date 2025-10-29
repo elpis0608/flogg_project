@@ -79,11 +79,12 @@ class HomePage extends StatelessWidget {
                       'assets/image/main1.jpg',
                       'assets/image/main2.jpg',
                       'assets/image/main3.jpg',
+                      'assets/image/main4.jpg',
                     ],
                   ),
                 ),
               ),
-              const SizedBox(height: 20),
+              const SizedBox(height: 40),
               CategoryGrid(
                 items: items,
                 onTap: (name) {
@@ -95,6 +96,22 @@ class HomePage extends StatelessWidget {
                   );
                 },
               ),
+              SizedBox(height: 40),
+
+              ClipRRect(
+                borderRadius: BorderRadius.circular(12),
+                child: AspectRatio(
+                  aspectRatio: 1,
+                  child: AutoCarousel(
+                    images: const [
+                      'assets/image/event1.jpg',
+                      'assets/image/event2.jpg',
+                      'assets/image/event3.jpg',
+                    ],
+                  ),
+                ),
+              ),
+              SizedBox(height: 40),
             ],
           ),
         ),
